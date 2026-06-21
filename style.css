@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Content Area */
+.content {
+    padding: 50px 20px;
+    text-align: center;
+    min-height: 70vh;
+}
+
+/* Card Design for Menu */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.menu-card {
+    background-color: white;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card-content p {
+    color: #666;
+    line-height: 1.5;
+}
