@@ -85,7 +85,7 @@ nav ul li a:hover {
     line-height: 1.5;
 }
 
-/* --- Responsive Image Style --- */
+/* Responsive Image Style */
 .responsive-img {
     max-width: 100%;
     height: auto;
@@ -93,7 +93,7 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 
-/* --- Mobile Responsive Design (For phones & tablets) --- */
+/* Mobile Responsive Design (For phones & tablets) */
 @media (max-width: 768px) {
     nav ul li {
         display: block; 
